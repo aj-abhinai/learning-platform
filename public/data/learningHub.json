@@ -1,0 +1,79 @@
+{
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "description": "Explore fundamental mathematical concepts",
+      "thumbnail": "/images/math-thumb.jpg",
+      "topics": [
+       {
+  "id": "algebra-basics",
+  "title": "Introduction to Algebra",
+  "videoUrl": "https://www.youtube.com/embed/NybHckSEQBI",
+  "notes": "## Quick Summary\nAlgebra uses symbols to represent unknown values.",
+  "notesFile": "/notes/algebra-basics.md",  
+  "externalNotesUrl": "https://khanacademy.org/algebra", 
+  "duration": "15:30"
+},
+        {
+          "id": "calculus-intro",
+          "title": "Calculus Fundamentals",
+          "videoUrl": "https://www.youtube.com/embed/WUvTyaaNkzM",
+          "externalNotesUrl": "https://example.com/calculus-notes",
+          "duration": "22:45"
+        },
+        {
+          "id": "geometry-basics",
+          "title": "Geometry Essentials",
+          "videoUrl": "https://www.youtube.com/embed/302eJ3TzJQU",
+          "notes": "## Geometric Shapes\n\n### Triangles\n- Sum of angles = 180°\n- Types: Equilateral, Isosceles, Scalene\n\n### Circles\n- Circumference = 2πr\n- Area = πr²",
+          "duration": "18:20"
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "name": "Programming",
+      "description": "Learn coding from scratch",
+      "thumbnail": "/images/programming-thumb.jpg",
+      "topics": [
+        {
+          "id": "python-basics",
+          "title": "Python for Beginners",
+          "videoUrl": "https://www.youtube.com/embed/kqtD5dpn9C8",
+          "notes": "## Getting Started with Python\n\n### Variables and Data Types\n```python\nname = 'John'  # String\nage = 25       # Integer\nheight = 5.9   # Float\n```\n\n### Control Flow\n```python\nif age >= 18:\n    print('Adult')\nelse:\n    print('Minor')\n```\n\n### Functions\n```python\ndef greet(name):\n    return f'Hello, {name}!'\n```",
+          "duration": "25:15"
+        },
+        {
+          "id": "javascript-intro",
+          "title": "JavaScript Essentials",
+          "videoUrl": "https://www.youtube.com/embed/W6NZfCO5SIk",
+          "notes": "## JavaScript Basics\n\n### Variables\n```javascript\nlet name = 'Alice';\nconst PI = 3.14159;\n```\n\n### Functions\n```javascript\nfunction add(a, b) {\n    return a + b;\n}\n\nconst multiply = (a, b) => a * b;\n```",
+          "duration": "30:00"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "description": "Discover the wonders of science",
+      "thumbnail": "/images/science-thumb.jpg",
+      "topics": [
+        {
+          "id": "physics-motion",
+          "title": "Laws of Motion",
+          "videoUrl": "https://www.youtube.com/embed/kKKM8Y-u7ds",
+          "notes": "## Newton's Laws of Motion\n\n### First Law (Inertia)\nAn object at rest stays at rest unless acted upon by a force.\n\n### Second Law (F = ma)\nForce equals mass times acceleration.\n\n### Third Law\nFor every action, there's an equal and opposite reaction.",
+          "duration": "20:30"
+        },
+        {
+          "id": "chemistry-basics",
+          "title": "Chemistry Fundamentals",
+          "videoUrl": "https://www.youtube.com/embed/FSyAehMdpyI",
+          "externalNotesUrl": "https://example.com/chemistry-notes",
+          "duration": "28:45"
+        }
+      ]
+    }
+  ]
+}
