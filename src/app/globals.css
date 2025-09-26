@@ -79,6 +79,14 @@
   margin-bottom: 1rem;
 }
 
+.prose pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: 0.875rem;
+  border-radius: 0;
+}
+
 .prose a {
   color: rgb(37 99 235); /* blue-600 */
   text-decoration: underline;
