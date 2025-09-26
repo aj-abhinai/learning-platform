@@ -42,7 +42,7 @@ export default function SubjectPageClient({ subjectId }: SubjectPageClientProps)
 
   if (loading) {
     return (
-      <div className="container mx-auto px-4 py-8">
+      <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
         <div className="flex justify-center items-center h-64">
           <div className="text-lg text-gray-600">Loading...</div>
         </div>
@@ -52,7 +52,7 @@ export default function SubjectPageClient({ subjectId }: SubjectPageClientProps)
 
   if (!subject) {
     return (
-      <div className="container mx-auto px-4 py-8">
+      <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
         <BackButton />
         <div className="text-center py-12">
           <p className="text-gray-500 text-lg">Subject not found</p>
@@ -62,7 +62,7 @@ export default function SubjectPageClient({ subjectId }: SubjectPageClientProps)
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
       <div className="mb-6">
         <BackButton />
       </div>
@@ -91,11 +91,11 @@ export default function SubjectPageClient({ subjectId }: SubjectPageClientProps)
           {selectedTopic && (
             <>
               <h2 className="text-2xl font-bold mb-4">{selectedTopic.title}</h2>
-              <VideoEmbed 
-                videoUrl={selectedTopic.videoUrl} 
-                title={selectedTopic.title} 
+              <VideoEmbed
+                videoUrl={selectedTopic.videoUrl}
+                title={selectedTopic.title}
               />
-              <NotesSection 
+              <NotesSection
                 notes={selectedTopic.notes}
                 externalNotesUrl={selectedTopic.externalNotesUrl}
                 notesFile={selectedTopic.notesFile}

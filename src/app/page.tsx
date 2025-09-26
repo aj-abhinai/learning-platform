@@ -57,10 +57,10 @@ export default function Home() {
   }
 
   return (
-    <div>
-      <div className="container mx-auto px-4 py-8">
+    <>
+      <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-tight pb-1">
             Welcome to Learning Hub
           </h1>
           <p className="text-gray-600 text-lg">
@@ -83,6 +83,6 @@ export default function Home() {
         )}
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
