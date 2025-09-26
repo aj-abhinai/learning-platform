@@ -35,7 +35,6 @@
       "id": "programming",
       "name": "Programming",
       "description": "Learn coding from scratch",
-      "thumbnail": "/images/programming-thumb.jpg",
       "topics": [
         {
           "id": "python-basics",
@@ -57,7 +56,7 @@
       "id": "science",
       "name": "Science",
       "description": "Discover the wonders of science",
-      "thumbnail": "/images/science-thumb.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&h=450&fit=crop"  ,
       "topics": [
         {
           "id": "physics-motion",

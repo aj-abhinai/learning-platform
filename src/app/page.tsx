@@ -20,7 +20,7 @@ export default function Home() {
       const response = await fetch('/data/learningHub.json');
       // For production with GitHub raw link
       // const response = await fetch('https://raw.githubusercontent.com/yourusername/yourrepo/main/learningHub.json');
-      
+
       const jsonData: LearningHubData = await response.json();
       setData(jsonData);
       setFilteredSubjects(jsonData.subjects);

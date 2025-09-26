@@ -16,7 +16,7 @@ const VideoEmbed: React.FC<VideoEmbedProps> = ({ videoUrl, title }) => {
   };
 
   return (
-    <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+    <div className="relative w-full max-w-2xl aspect-video rounded-lg overflow-hidden shadow-lg mx-auto">
       <iframe
         src={getEmbedUrl(videoUrl)}
         title={title}
